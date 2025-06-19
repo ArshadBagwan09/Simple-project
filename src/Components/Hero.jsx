@@ -1,0 +1,32 @@
+const Hero = () => {
+  return (
+    <>
+      <div className="hero container">
+        <div className="hero-content">
+          <h1>
+            YOUR FEET DESERVE THE BEST
+          </h1>
+          <p>
+            YOUR FEET  DESERVE THE BEST AND WERE HERE TO HELP YOU WITH OUR SHOES.YOUR FEET DESERVE THR BEST AND WERE HERE TO HELP YOU WITH OUR SHOES.
+          </p>
+          <div className="hero-btn">
+            <button>Shop Now</button>
+            <button className="secondry-btn">Category</button>
+          </div>
+          <div className="shopping">
+            <p>Also American On</p>
+            <div className="brand-icons">
+              < img src="/Image/amazon.png" alt="amazon-logo" />
+              <img src="/Image/flipkart.png" alt="flipkart-logo" />
+            </div>
+          </div>
+        </div>
+        <div className="hero-image">
+          <img src="/Image/hero-image.png" alt="hero-logo" />
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default Hero;
